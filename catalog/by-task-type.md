@@ -95,3 +95,31 @@
 | Strategy `market-mapping` | https://github.com/aapersh/strategy-skills-for-claude | 市场地图 | 商业分析任务与大哥目标强相关；适合转化为机会筛选 SOP。 | 待归档 | 待研究 |
 | Strategy `business-case-builder` | https://github.com/aapersh/strategy-skills-for-claude | 商业案例 | 可迁移到产品/副业项目评估；结构化 ROI、风险、假设验证。 | 待归档 | 待研究 |
 | Strategy `transformation-roadmap` | https://github.com/aapersh/strategy-skills-for-claude | 转型路线图 | 把战略拆成里程碑、owner、依赖、治理，适合学习复杂计划拆解。 | 待归档 | 待研究 |
+
+
+---
+
+## 10. 第二批新增优质候选（待归档/待深度研究）
+
+> 这些候选来自第二轮跨平台扫描。完整表格见 `sources/expanded-candidates-2026-06-24.md`。这里先把最值得后续研究的候选登记到总目录，下一步逐个用 sub agent 深挖并归档原文。
+
+| Skill / Workflow | 来源 | 用途 | 入选理由 | 原文路径 | 状态 |
+|---|---|---|---|---|---|
+| OpenAI Agents SDK workflow | https://github.com/openai/openai-agents-python | Agent 编排 / handoff / tracing | OpenAI 官方；约 27k stars/4.2k forks；适合学习生产级 agent 的工具、handoff、tracing、guardrails。 | 待归档 | 新增候选 |
+| Sentry Error Monitoring workflow | https://docs.sentry.io/ / https://github.com/getsentry/sentry | 错误监控 / issue triage / 性能追踪 | Sentry 官方；主仓约 44k stars/4.7k forks；适合学习生产错误上下文到代码修复的闭环。 | 待归档 | 新增候选 |
+| Cloudflare Agents Skill | https://github.com/cloudflare/agents | Edge-native AI Agents | Cloudflare 官方；约 5.1k stars/604 forks；适合学习部署在边缘的 agent 应用、状态和实时交互。 | 待归档 | 新增候选 |
+| Cloudflare MCP Server Skill | https://github.com/cloudflare/mcp-server-cloudflare | MCP / Cloudflare 资源管理 | Cloudflare 官方；约 3.9k stars/427 forks；适合学习如何把云平台能力接入 Agent 工具系统。 | 待归档 | 新增候选 |
+| Anthropic `hook-development` | https://github.com/anthropics/claude-plugins-official/tree/main/plugins/plugin-dev/skills/hook-development | Claude Code Hooks / 事件自动化 | Anthropic 官方；约 30k stars/3.3k forks；覆盖 PreToolUse/PostToolUse/Stop/SubagentStop，适合学习事件驱动 agent 安全守门和自动化。 | 待归档 | 新增候选 |
+| Anthropic `command-development` | https://github.com/anthropics/claude-plugins-official/tree/main/plugins/plugin-dev/skills/command-development | Slash commands / 可复用命令 | Anthropic 官方；references 覆盖 frontmatter、动态参数、文件引用、bash 执行、交互命令和测试策略。 | 待归档 | 新增候选 |
+| Anthropic `claude-automation-recommender` | https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup/skills/claude-automation-recommender | 自动化组件推荐 | Anthropic 官方；references 覆盖 skills、MCP、plugins、hooks、subagent templates，是项目自动化推荐元工作流。 | 待归档 | 新增候选 |
+| Anthropic `knowledge-synthesis` | https://github.com/anthropics/knowledge-work-plugins/tree/main/enterprise-search/skills/knowledge-synthesis | 企业搜索 / 多源知识综合 | Anthropic 官方；knowledge-work-plugins 约 21k stars/2.5k forks；处理去重、freshness/authority、source attribution。 | 待归档 | 新增候选 |
+| BMAD-METHOD | https://github.com/bmad-code-org/BMAD-METHOD | Agile AI-driven development | 社区高热；约 49k stars/5.7k forks；覆盖业务/产品规划到开发执行，适合提炼产品-需求-开发全链路 SOP。 | 待归档 | 新增候选 |
+| wshobson/agents | https://github.com/wshobson/agents | Multi-agent marketplace / 跨平台 agents | 社区高热；约 37k stars/4k forks；支持 Claude Code、Codex CLI、Cursor、OpenCode、Copilot、Gemini CLI。 | 待归档 | 新增候选 |
+| claude-task-master | https://github.com/eyaltoledano/claude-task-master | AI task management / 任务拆解 | 社区高热；约 27k stars/2.6k forks；聚焦把需求拆成可执行任务，和 Skill library 目标高度契合。 | 待归档 | 新增候选 |
+| SuperClaude Framework | https://github.com/SuperClaude-Org/SuperClaude_Framework | Claude Code commands / persona / 方法论 | 社区高热；约 23k stars/1.9k forks；结合 commands、cognitive personas、development methodologies。 | 待归档 | 新增候选 |
+| Context7 docs-for-LLMs workflow | https://github.com/upstash/context7 | 最新文档注入 / AI code editor docs | 社区高热；约 57k stars/2.7k forks；解决 LLM 使用过期文档的核心痛点。 | 待归档 | 新增候选 |
+| awesome-mcp-servers | https://github.com/punkpeye/awesome-mcp-servers | MCP / DevOps / 工具集成来源索引 | 超高星；约 89k stars/12k forks；适合作为后续 DevOps、Docs、GitHub、数据库、云服务类 Skill 上游候选池。 | 待归档 | 新增候选 |
+| Matt Pocock `diagnosing-bugs` | https://github.com/mattpocock/skills/tree/main/skills/engineering/diagnosing-bugs | Debug / tight feedback loop | 高星工程 Skill 库；约 143k stars/12k forks；强调先构建测试/curl/Playwright/trace/fuzz/bisect 等反馈环。 | 待归档 | 新增候选 |
+| Addy Osmani `browser-testing-with-devtools` | https://github.com/addyosmani/agent-skills/tree/main/skills/browser-testing-with-devtools | 浏览器真实运行验证 / Chrome DevTools MCP | 社区高星；约 66k stars/7k forks；用 DOM、console、network、performance、visual output 验证前端。 | 待归档 | 新增候选 |
+| Anthropic `launch-your-agent` | https://github.com/anthropics/launch-your-agent/tree/main/.claude/skills/launch-your-agent | 从 idea 到 Claude Managed Agent 上线 | Anthropic 官方；从 interview、scope v0、API/mock connectors、grading、iteration 到 schedule，链路端到端。 | 待归档 | 新增候选 |
+| Anthropic `launch-review` | https://github.com/anthropics/claude-for-legal/tree/main/product-legal/skills/launch-review | 产品上线法律审查 / 风险 memo | Anthropic 官方；claude-for-legal 约 8.4k stars/1.5k forks；适合学习高风险专业领域 guardrails 和输出路由。 | 待归档 | 新增候选 |

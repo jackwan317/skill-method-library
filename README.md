@@ -25,6 +25,7 @@ backlog/                    # 后续批次计划
 - 第一批来源筛选：OpenAI/Codex、Anthropic/Claude、开源共享平台。
 - 第一版任务类型目录：`catalog/by-task-type.md`，已新增“入选理由/为什么优秀”与“原文路径”列
 - 已建立原文归档目录：`originals/`，保存已研究 Skill 的原始文件/目录
+- 第二批优质候选池：`sources/expanded-candidates-2026-06-24.md`，新增 40+ 个官方/高星/高热候选
 - 已完成 3 个 Skill 深度研究：
   - `skills/meta-skill-development/openai-plugin-creator.md`
   - `skills/meta-skill-development/anthropic-skill-creator.md`
