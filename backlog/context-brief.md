@@ -25,7 +25,7 @@
 4. Anthropic `knowledge-synthesis` ✅
 5. OpenAI Agents SDK workflow ✅
 6. Cloudflare Agents Skill ✅
-7. Cloudflare MCP Server Skill
+7. Cloudflare MCP Server Skill ✅
 8. Sentry Error Monitoring / `sentry-workflow`
 9. Context7 docs-for-LLMs workflow
 10. BMAD-METHOD
@@ -45,3 +45,4 @@
 - Anthropic `knowledge-synthesis` → `skills/knowledge-processing/anthropic-knowledge-synthesis.md`
 - OpenAI Agents SDK workflow → `skills/agent-orchestration/openai-agents-sdk-workflow.md`
 - Cloudflare Agents Skill → `skills/agent-orchestration/cloudflare-agents-skill.md`
+- Cloudflare MCP Server Skill → `skills/mcp/cloudflare-mcp-server-skill.md`

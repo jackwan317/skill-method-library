@@ -47,4 +47,5 @@
 - ✅ Anthropic `knowledge-synthesis` — studied, documented at `skills/knowledge-processing/anthropic-knowledge-synthesis.md`.
 - ✅ OpenAI Agents SDK workflow — studied, documented at `skills/agent-orchestration/openai-agents-sdk-workflow.md`.
 - ✅ Cloudflare Agents Skill — studied, documented at `skills/agent-orchestration/cloudflare-agents-skill.md`.
-- ⏭️ Next: Cloudflare MCP Server Skill.
+- ✅ Cloudflare MCP Server Skill — studied, documented at `skills/mcp/cloudflare-mcp-server-skill.md`.
+- ⏭️ Next: Sentry Error Monitoring workflow.
