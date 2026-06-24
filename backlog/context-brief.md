@@ -22,7 +22,7 @@
 1. Anthropic `hook-development`
 2. Anthropic `command-development`
 3. Anthropic `claude-automation-recommender`
-4. Anthropic `knowledge-synthesis`
+4. Anthropic `knowledge-synthesis` ✅
 5. OpenAI Agents SDK workflow
 6. Cloudflare Agents Skill
 7. Cloudflare MCP Server Skill
@@ -42,3 +42,4 @@
 - Anthropic `hook-development` → `skills/agent-automation/anthropic-hook-development.md`
 - Anthropic `command-development` → `skills/agent-automation/anthropic-command-development.md`
 - Anthropic `claude-automation-recommender` → `skills/agent-automation/anthropic-claude-automation-recommender.md`
+- Anthropic `knowledge-synthesis` → `skills/knowledge-processing/anthropic-knowledge-synthesis.md`

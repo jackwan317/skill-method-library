@@ -44,4 +44,5 @@
 - ✅ Anthropic `hook-development` — studied, archived, documented at `skills/agent-automation/anthropic-hook-development.md`.
 - ✅ Anthropic `command-development` — studied, archived, documented at `skills/agent-automation/anthropic-command-development.md`.
 - ✅ Anthropic `claude-automation-recommender` — studied, archived, documented at `skills/agent-automation/anthropic-claude-automation-recommender.md`.
-- ⏭️ Next: Anthropic `knowledge-synthesis`.
+- ✅ Anthropic `knowledge-synthesis` — studied, documented at `skills/knowledge-processing/anthropic-knowledge-synthesis.md`.
+- ⏭️ Next: OpenAI Agents SDK workflow.
