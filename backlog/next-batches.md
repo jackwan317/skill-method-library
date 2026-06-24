@@ -35,3 +35,9 @@
 - sub agent 只读研究，不运行目标 Skill，不修改目标仓库。
 - 输出必须覆盖：任务、触发、输入输出、步骤、工具/脚本/MCP/API、决策点、验证、可迁移写法、分类。
 - 主 agent 负责把文档落盘、更新 catalog、提交 GitHub。
+
+
+## Current deep-dive progress
+
+- ✅ Anthropic `hook-development` — studied, archived, documented at `skills/agent-automation/anthropic-hook-development.md`.
+- ⏭️ Next: Anthropic `command-development`.
