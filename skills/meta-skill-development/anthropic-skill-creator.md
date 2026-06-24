@@ -1,9 +1,18 @@
 # Anthropic 官方 `skill-creator` 方法论研究
 
 - 来源：https://github.com/anthropics/claude-plugins-official
+- 本仓库原文路径：`originals/anthropic/claude-plugins-official/plugins/skill-creator/skills/skill-creator/`
 - 原始链接：https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator/skills/skill-creator
 - 分类：Skill / Plugin / Agent 开发；Agent 评估；流程产品化
 - 研究方式：独立 sub agent 只读研究
+
+## 0. 为什么认为这个 Skill 优秀
+
+- **官方来源**：来自 Anthropic 官方 `claude-plugins-official` 仓库。
+- **元 Skill 标杆**：它研究的是如何创建、改进、评估和打包 Skills，本身就是学习 Skill 工程化的核心样本。
+- **结构非常完整**：包含 `SKILL.md`、`references/`、`agents/grader.md`、`agents/comparator.md`、`agents/analyzer.md`、`eval-viewer/` 和多种 `scripts/`。
+- **验证闭环强**：强调 with-skill vs baseline、assertions、benchmark、人类 review、blind comparison、description trigger eval。
+- **可迁移价值极高**：能直接指导我们怎样写 Hermes Skill、怎样测试触发、怎样避免 Skill 只是提示词片段。
 
 ## 1. 它要完成的任务
 

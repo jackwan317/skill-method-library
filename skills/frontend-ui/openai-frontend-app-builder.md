@@ -1,9 +1,18 @@
 # OpenAI Plugins `frontend-app-builder` 方法论研究
 
 - 来源：https://github.com/openai/plugins
+- 本仓库原文路径：`originals/openai/plugins/plugins/build-web-apps/skills/frontend-app-builder/`
 - 原始链接：https://github.com/openai/plugins/blob/main/plugins/build-web-apps/skills/frontend-app-builder/SKILL.md
 - 分类：前端 / UI / 设计到代码 / 视觉 QA
 - 研究方式：独立 sub agent 只读研究
+
+## 0. 为什么认为这个 Skill 优秀
+
+- **官方来源**：来自 OpenAI 官方 `openai/plugins` 仓库。
+- **流程完整**：覆盖需求提取、Image Gen 概念设计、用户批准、设计系统提取、前端实现、浏览器验证、视觉对比。
+- **质量 gate 明确**：包含 Hard Rules、Hard Stops、fidelity ledger、above-the-fold copy diff、final response contract。
+- **工具编排清晰**：明确 Image Gen、Browser/IAB、Playwright fallback、`view_image`、React/Vite 的使用顺序和边界。
+- **可迁移价值高**：它把“做好 UI”这种主观任务拆成可执行、可验证的流程，非常适合学习高质量 Skill 的写法。
 
 ## 1. 它要完成的任务
 

@@ -1,9 +1,18 @@
 # OpenAI Plugins `plugin-creator` 方法论研究
 
 - 来源：https://github.com/openai/plugins
+- 本仓库原文路径：`originals/openai/plugins/.agents/skills/plugin-creator/`
 - 原始链接：https://github.com/openai/plugins/blob/main/.agents/skills/plugin-creator/SKILL.md
 - 分类：Skill / Plugin / Agent 开发
 - 研究方式：独立 sub agent 只读研究
+
+## 0. 为什么认为这个 Skill 优秀
+
+- **官方来源**：来自 OpenAI 官方 `openai/plugins` 仓库。
+- **结构完整**：不只有 `SKILL.md`，还包含可执行脚本 `create_basic_plugin.py` 和 `plugin-json-spec.md` 参考规范。
+- **流程可验证**：生成目录、manifest、marketplace 条目后都可以通过 JSON 解析、路径检查、字段检查验证。
+- **可迁移价值高**：它展示了脚手架型 Skill 如何处理名称标准化、默认路径、个人/团队作用域、覆盖保护、占位符和 registry 更新。
+- **任务类型高价值**：插件/Skill 创建是所有 agent 生态的基础能力，值得优先学习。
 
 ## 1. 它要完成的任务
 
