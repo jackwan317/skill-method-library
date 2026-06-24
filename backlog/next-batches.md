@@ -46,4 +46,5 @@
 - ✅ Anthropic `claude-automation-recommender` — studied, archived, documented at `skills/agent-automation/anthropic-claude-automation-recommender.md`.
 - ✅ Anthropic `knowledge-synthesis` — studied, documented at `skills/knowledge-processing/anthropic-knowledge-synthesis.md`.
 - ✅ OpenAI Agents SDK workflow — studied, documented at `skills/agent-orchestration/openai-agents-sdk-workflow.md`.
-- ⏭️ Next: Cloudflare Agents Skill.
+- ✅ Cloudflare Agents Skill — studied, documented at `skills/agent-orchestration/cloudflare-agents-skill.md`.
+- ⏭️ Next: Cloudflare MCP Server Skill.
