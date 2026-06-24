@@ -105,7 +105,7 @@
 
 | Skill / Workflow | 来源 | 用途 | 入选理由 | 报告路径 | 备注状态 |
 |---|---|---|---|---|---|
-| OpenAI Agents SDK workflow | https://github.com/openai/openai-agents-python | Agent 编排 / handoff / tracing | OpenAI 官方；约 27k stars/4.2k forks；适合学习生产级 agent 的工具、handoff、tracing、guardrails。 | 待生成 | 新增候选 |
+| OpenAI Agents SDK workflow | https://github.com/openai/openai-agents-python | Agent 编排 / handoff / tracing | OpenAI 官方；约 27k stars/4.2k forks；适合学习生产级 agent 的工具、handoff、tracing、guardrails。 | 待生成 | 研究中 |
 | Sentry Error Monitoring workflow | https://docs.sentry.io/ / https://github.com/getsentry/sentry | 错误监控 / issue triage / 性能追踪 | Sentry 官方；主仓约 44k stars/4.7k forks；适合学习生产错误上下文到代码修复的闭环。 | 待生成 | 新增候选 |
 | Cloudflare Agents Skill | https://github.com/cloudflare/agents | Edge-native AI Agents | Cloudflare 官方；约 5.1k stars/604 forks；适合学习部署在边缘的 agent 应用、状态和实时交互。 | 待生成 | 新增候选 |
 | Cloudflare MCP Server Skill | https://github.com/cloudflare/mcp-server-cloudflare | MCP / Cloudflare 资源管理 | Cloudflare 官方；约 3.9k stars/427 forks；适合学习如何把云平台能力接入 Agent 工具系统。 | 待生成 | 新增候选 |
