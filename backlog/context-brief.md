@@ -41,3 +41,4 @@
 
 - Anthropic `hook-development` → `skills/agent-automation/anthropic-hook-development.md`
 - Anthropic `command-development` → `skills/agent-automation/anthropic-command-development.md`
+- Anthropic `claude-automation-recommender` → `skills/agent-automation/anthropic-claude-automation-recommender.md`
