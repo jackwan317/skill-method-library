@@ -33,8 +33,10 @@
 
 - 一个 Skill = 一个独立 sub agent。
 - sub agent 只读研究，不运行目标 Skill，不修改目标仓库。
+- 新流程不用下载/归档原文，只输出方法论报告。
 - 输出必须覆盖：任务、触发、输入输出、步骤、工具/脚本/MCP/API、决策点、验证、可迁移写法、分类。
-- 主 agent 负责把文档落盘、更新 catalog、提交 GitHub。
+- 每跑完一个 sub agent，主会话立刻把报告落盘到 `skills/<category>/<name>.md`，更新 `catalog/by-task-type.md` 的报告路径和备注状态，提交并推送 GitHub。
+- 状态必须及时更新为 `研究中` / `已有报告` / `跳过` / `需复查`，避免后续 sub agent 重复作业。
 
 
 ## Current deep-dive progress

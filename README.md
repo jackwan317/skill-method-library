@@ -15,7 +15,8 @@
 catalog/                    # 总目录：按任务类型归类
 sources/                    # 来源与候选池
 skills/<category>/<skill>.md # 每个 Skill 一份研究文档
-originals/                  # 已研究/已筛选 Skill 原文或原目录，便于直接导出使用
+originals/                  # 历史归档区；新流程不再要求下载原文
+docs/                       # 项目运行流程与规范
 templates/                  # 研究文档模板、评分模板
 backlog/                    # 后续批次计划
 ```
@@ -23,8 +24,8 @@ backlog/                    # 后续批次计划
 ## 当前已完成
 
 - 第一批来源筛选：OpenAI/Codex、Anthropic/Claude、开源共享平台。
-- 第一版任务类型目录：`catalog/by-task-type.md`，已新增“入选理由/为什么优秀”与“原文路径”列
-- 已建立原文归档目录：`originals/`，保存已研究 Skill 的原始文件/目录
+- 第一版任务类型目录：`catalog/by-task-type.md`，已新增“入选理由/为什么优秀”“报告路径/备注状态”列
+- 已建立运行流程文档：`docs/operating-workflow.md`，将任务拆成“候选池发现”和“逐项 sub agent 报告输出”两部分
 - 第二批优质候选池：`sources/expanded-candidates-2026-06-24.md`，新增 40+ 个官方/高星/高热候选
 - 已完成 3 个 Skill 深度研究：
   - `skills/meta-skill-development/openai-plugin-creator.md`
@@ -39,12 +40,14 @@ backlog/                    # 后续批次计划
 - 文档重点是“任务如何被完成”，而不是复述 README。
 - 关注：脚本、工具、MCP、API、输入输出、验证 gate、失败恢复、可迁移模式。
 
-## 新增硬规则：优秀理由 + 原文归档
+## 新增硬规则：优秀理由 + 报告状态
 
 每个候选 Skill 必须回答两个问题：
 
 1. **为什么它值得学？**  
    需要写明入选理由，例如：官方维护、GitHub stars/forks 高、近期 trending、社区讨论多、结构完整、验证流程强、工具链成熟、任务价值高、可迁移性强。
 
-2. **原文在哪里？**  
-   对已研究或准备研究的 Skill，要在 `originals/` 下保存原始 `SKILL.md` 及关键 `scripts/`、`references/`、`agents/`、`assets/` 等文件，让大哥可以直接从本仓库查看、复制、导出。
+2. **报告产出到哪里？当前状态是什么？**  
+   新流程不再下载或归档原文；每个已研究项目只保存方法论报告，并在 `catalog/by-task-type.md` 中把 `报告路径` 与 `备注状态` 更新为最新值，防止重复作业。
+
+详细流程见：`docs/operating-workflow.md`。
