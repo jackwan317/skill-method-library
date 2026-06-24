@@ -48,4 +48,5 @@
 - ✅ OpenAI Agents SDK workflow — studied, documented at `skills/agent-orchestration/openai-agents-sdk-workflow.md`.
 - ✅ Cloudflare Agents Skill — studied, documented at `skills/agent-orchestration/cloudflare-agents-skill.md`.
 - ✅ Cloudflare MCP Server Skill — studied, documented at `skills/mcp/cloudflare-mcp-server-skill.md`.
-- ⏭️ Next: Sentry Error Monitoring workflow.
+- ✅ Sentry Error Monitoring workflow — studied, documented at `skills/observability/sentry-error-monitoring-workflow.md`.
+- ⏸️ Batch checkpoint: 5 reports completed since last check; pause for review.
