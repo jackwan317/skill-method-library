@@ -12,6 +12,7 @@
 | Anthropic `skill-creator` | https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator/skills/skill-creator | `originals/anthropic/claude-plugins-official/plugins/skill-creator/skills/skill-creator/` | Anthropic 官方元 Skill；包含 eval、grader、comparator、description 优化、打包脚本，是 Skill 工程化闭环的高质量范式。 |
 | OpenAI `frontend-app-builder` | https://github.com/openai/plugins/tree/main/plugins/build-web-apps/skills/frontend-app-builder | `originals/openai/plugins/plugins/build-web-apps/skills/frontend-app-builder/` | OpenAI 官方前端构建 Skill；流程覆盖 Image Gen 设计、设计系统提取、实现、浏览器视觉验证和 final response contract，质量 gate 明确。 |
 | Anthropic `hook-development` | https://github.com/anthropics/claude-plugins-official/tree/main/plugins/plugin-dev/skills/hook-development | `originals/anthropic/claude-plugins-official/plugins/plugin-dev/skills/hook-development/` | Anthropic 官方 Claude Code hook 开发 Skill；覆盖 PreToolUse/PostToolUse/Stop/SessionStart 等事件，含 references、examples、validate/lint/test 脚本，是事件驱动 agent 治理的优秀样本。 |
+| Anthropic `command-development` | https://github.com/anthropics/claude-plugins-official/tree/main/plugins/plugin-dev/skills/command-development | `originals/anthropic/claude-plugins-official/plugins/plugin-dev/skills/command-development/` | Anthropic 官方 Claude Code slash command 开发 Skill；覆盖 frontmatter、参数、文件引用、Bash 注入、AskUserQuestion、测试和 marketplace 分发，是把 agent workflow 产品化为命令的优秀样本。 |
 
 ## 后续归档规则
 

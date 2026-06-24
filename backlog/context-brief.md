@@ -35,3 +35,9 @@
 
 先研究 Anthropic `hook-development`：
 <https://github.com/anthropics/claude-plugins-official/tree/main/plugins/plugin-dev/skills/hook-development>
+
+
+## 已完成研究
+
+- Anthropic `hook-development` → `skills/agent-automation/anthropic-hook-development.md`
+- Anthropic `command-development` → `skills/agent-automation/anthropic-command-development.md`

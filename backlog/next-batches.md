@@ -40,4 +40,5 @@
 ## Current deep-dive progress
 
 - ✅ Anthropic `hook-development` — studied, archived, documented at `skills/agent-automation/anthropic-hook-development.md`.
-- ⏭️ Next: Anthropic `command-development`.
+- ✅ Anthropic `command-development` — studied, archived, documented at `skills/agent-automation/anthropic-command-development.md`.
+- ⏭️ Next: Anthropic `claude-automation-recommender`.
